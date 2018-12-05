@@ -4,10 +4,16 @@ spring:
     
 ---
 #开发环境dev
+spring: 
+  profiles: dev
 name: devddd
 ---
 #测试环境
+spring: 
+  profiles: test
 name: testdfdf
 ---
 #生产环境pro
+spring: 
+  profiles: pro
 name: proddd
