@@ -6,6 +6,11 @@ spring:
 #开发环境dev
 spring: 
   profiles: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3309/db_hotel?useSSL=false
+    username: root
+    password: 123456
 name: devddd
 ---
 #测试环境
