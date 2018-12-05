@@ -1,2 +1,13 @@
-name: 
-  ymlsd
+spring: 
+  profiles:
+    active: dev
+    
+---
+#开发环境dev
+name: devddd
+---
+#测试环境
+name: testdfdf
+---
+#生产环境pro
+name: proddd
